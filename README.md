@@ -4,7 +4,7 @@ Simulates an ECG output as an analogue voltage between GND and VCC - assumed to 
 
 2 inputs: VCC, GND
 
-1 output: OUT - the analoguie output value for signal.
+1 output: OUT - the analogue output value for signal.
 
 3 controls: 
 
