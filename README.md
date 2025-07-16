@@ -16,7 +16,7 @@ Simulates an ECG output as an analogue voltage between GND and VCC - assumed to 
 To use this chip in your project, include it as a dependency in your `diagram.json` file:
 
 ```json
-"dependencies": { "chip-ecggen": "github:rozw-m/Wokwi-Chip-ECGgen@1.0.0" }
+"dependencies": { "chip-ecggen": "github:rozw-m/Wokwi-Chip-ECGgen@1.0.1" }
 ```
 
 Then, add the chip to your circuit by adding a `chip-ecggen` item to the `parts` section of `diagram.json`:
