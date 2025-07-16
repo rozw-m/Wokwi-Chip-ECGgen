@@ -10,7 +10,7 @@ Simulates an ECG output as an analogue voltage between GND and VCC - assumed to 
 
 - Amplitude of signal: the peak amplitude between 0 and 3.3V
 - Voltage Offset: offset of baseline of signal - between 0 and 3.3V
-- Freqeuncy of beat: frequency of peak - between 0 and 5Hz
+- Frequency of beat: frequency of peak - between 0 and 5Hz
 
 ## Usage
 To use this chip in your project, include it as a dependency in your `diagram.json` file:
