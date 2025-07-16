@@ -1,4 +1,4 @@
-# Wokwi-chip-ECGgen
+# Wokwi-Chip-ECGgen
 ## Description
 Simulates an ECG output as an analogue voltage between GND and VCC - assumed to be 3.3V as written for Rapsberry Pi Pico device
 
@@ -16,7 +16,7 @@ Simulates an ECG output as an analogue voltage between GND and VCC - assumed to 
 To use this chip in your project, include it as a dependency in your `diagram.json` file:
 
 ```json
-"dependencies": { "chip-ecggen": "github:rozw-m/Wokwi-Chip-ECHgen@1.0.0" }
+"dependencies": { "chip-ecggen": "github:rozw-m/Wokwi-Chip-ECGgen@1.0.0" }
 ```
 
 Then, add the chip to your circuit by adding a `chip-ecggen` item to the `parts` section of `diagram.json`:
@@ -27,7 +27,7 @@ Then, add the chip to your circuit by adding a `chip-ecggen` item to the `parts`
     "type": "chip-ecggen", "id": "chip2", "top": 105.6, "left": 192, "attrs": {},
 ```
 
-The actual source code for the chip lives in [src/main.c](https://github.com/rozw-m/Wokwi-Chip-pJK/blob/main/src/main.c), and the pins are described in [chip.json](https://github.com/rozw-m/Wokwi-Chip-pJK/blob/main/chip.json).
+The actual source code for the chip lives in [src/main.c](https://github.com/rozw-m/Wokwi-Chip-ECGgen/blob/main/src/main.c), and the pins are described in [chip.json](https://github.com/rozw-m/Wokwi-Chip-ECGgen/blob/main/chip.json).
 
 ## Example of usage
 An example [WokWi project](https://wokwi.com/projects/436449093906557953) using this chip.
