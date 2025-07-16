@@ -1,5 +1,5 @@
 {
-  "name": "user-ecg",
+  "name": "ecg-generator",
   "author": "Adapted from https://wokwi.com/projects/412174242168939521",
   "pins": [
     "VCC",
