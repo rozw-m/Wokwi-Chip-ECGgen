@@ -1,0 +1,35 @@
+{
+  "name": "user-ecg",
+  "author": "Adapted from https://wokwi.com/projects/412174242168939521",
+  "pins": [
+    "VCC",
+    "GND",
+    "OUT"
+  ],
+  "controls": [
+    {
+      "id": "amplitude",
+      "label": "Amplitude of signal",
+      "type": "range",
+      "min": 0,
+      "max": 3.3,
+      "step": 0.1
+    },
+    {
+      "id": "offset",
+      "label": "Voltage Offset",
+      "type": "range",
+      "min": 0,
+      "max": 3.3,
+      "step": 0.1
+    },
+    {
+      "id": "frequency",
+      "label": "Frequency of beat",
+      "type": "range",
+      "min": 0,
+      "max": 5,
+      "step": 0.1
+    }
+  ]
+}
