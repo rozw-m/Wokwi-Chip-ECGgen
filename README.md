@@ -1,6 +1,6 @@
 # Wokwi-Chip-ECGgen
 ## Description
-Simulates an ECG output as an analogue voltage between GND and VCC - assumed to be 3.3V as written for Rapsberry Pi Pico device
+Simulates an ECG output as an analogue voltage between GND and VCC - assumed to be 3.3V as written for Raspberry Pi Pico device
 
 2 inputs: VCC, GND
 
