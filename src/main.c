@@ -46,8 +46,8 @@ void chip_init() {
   timer_id = timer_init(&timer_config);
   time_int = (uint32_t)1e6/(chip->frequencyHz*500);
   timer_start(timer_id, time_int, true);
-  float BPM = chip->frequencyHz*60.0;
-  printf("BPM: %.2f\n", BPM);
+  int BPM = (int)chip->frequencyHz*60.0;
+  printf("BPM: %d\n", BPM);
   printf("ECG Chip Initialized!\n");
 }
 
