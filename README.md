@@ -13,10 +13,10 @@ Simulates an ECG output as an analogue voltage between GND and VCC - assumed to 
 - Frequency of beat: frequency of peak - between 0 and 5Hz
 
 ## Usage
-To use this chip in your project, include it as a dependency in your `diagram.json` file:
+To use this chip in your project, include it as a dependency in your `diagram.json` file (ensure `@2.1.1` is actually latests released version):
 
 ```json
-"dependencies": { "chip-ecggen": "github:rozw-m/Wokwi-Chip-ECGgen@2.0.0" }
+"dependencies": { "chip-ecggen": "github:rozw-m/Wokwi-Chip-ECGgen@2.1.1" }
 ```
 
 Then, add the chip to your circuit by adding a `chip-ecggen` item to the `parts` section of `diagram.json`:
