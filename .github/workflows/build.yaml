@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v3
+        uses: actions/checkout
       - name: Build chip
         uses: wokwi/wokwi-chip-clang-action@main
         with:
@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download compiled chip
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact
         with:
           name: chip
           path: chip
